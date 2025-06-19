@@ -83,6 +83,8 @@
     margin-top: 16px;
     font-size: 16px;
     font-weight: 16px;
+    line-height: 16px;
+
 }
 
 #main_content {
@@ -92,6 +94,7 @@
 .title {
     max-width: 1170px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .title h2 {
@@ -103,11 +106,12 @@
 .title p {
     font-size: 16px;
     margin-top: 16px;
+    line-height: 16px;
+
 }
 
 .inner .itm {
     flex: 1;
-    margin-top: 40px;
 }
 
 .inner .itm img {
@@ -118,6 +122,7 @@
 .inner .itm p {
     text-align: center;
     margin-top: 16px;
+    line-height: 16px;
 }
 
 #main_event {
@@ -128,6 +133,5 @@
 
 #footer {
     padding: 80px 0;
-    max-width: 1170px;
-    margin: 0 auto;
+
 }
