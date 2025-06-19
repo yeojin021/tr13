@@ -1,0 +1,129 @@
+.inner {}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flx {
+    display: flex;
+    gap: 30px;
+}
+
+#header {}
+
+#header .inner {
+    display: flex;
+
+    height: 120px;
+    align-items: center;
+}
+
+
+#header h1 {
+    flex: 0 0 240px;
+    margin-right: auto;
+}
+
+
+#header .gnb>ul {
+    display: flex;
+    white-space: nowrap;
+    gap: 40px;
+}
+
+
+#header .gnb>ul>li>a {
+    display: block;
+    font-size: 18px;
+    line-height: 120px;
+}
+
+
+#header .utils {
+    display: flex;
+    gap: 16px;
+    margin-left: 80px;
+}
+
+
+#main_visual {
+    position: relative;
+    background: url(../images/meat-1155132_1920.jpg)no-repeat center center/cover;
+    height: calc(100vh - 120px);
+}
+
+
+#main_visual::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(#000000c9 10%, transparent);
+    inset: 0 0 0 0;
+}
+
+#main_visual .slg {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+#main_visual .slg strong {
+    font-family: serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+
+#main_visual .slg p {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 16px;
+}
+
+#main_content {
+    padding: 120px 0;
+}
+
+.title {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.title p {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.inner .itm {
+    flex: 1;
+    margin-top: 40px;
+}
+
+
+.inner .itm p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+#main_event {
+    padding: 120px 0;
+
+    background: #f2f2f2;
+}
+
+#footer {
+    padding: 80px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+}
